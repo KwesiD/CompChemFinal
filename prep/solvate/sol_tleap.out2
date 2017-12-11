@@ -1,0 +1,137 @@
+-I: Adding /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/prep to search path.
+-I: Adding /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/lib to search path.
+-I: Adding /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/parm to search path.
+-I: Adding /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/cmd to search path.
+-f: Source sol_tleap.in2.
+
+Welcome to LEaP!
+(no leaprc in search path)
+Sourcing: ./sol_tleap.in2
+----- Source: /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/lib/amino12.lib
+Loading library: /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/lib/aminoct12.lib
+Loading library: /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/lib/aminont12.lib
+----- Source: /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/lib/atomic_ions.lib
+Loading library: /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/lib/solvents.lib
+Loading parameters: /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+----- Source: /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/cmd/leaprc.gaff2
+----- Source of /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.1, April 2016)
+Loading library: ../100_1.lib
+Loading PDB file: ./100_1_5j0d_complex.pdb
+  total atoms in file: 2037
+Loading PDB file: ./5j0d_xwat.pdb
+  total atoms in file: 127
+  Leap added 254 missing atoms according to residue templates:
+       254 H / lone pairs
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 407 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	CGLY	1
+	NARG	1
+	UNK	1
+  )
+ (no restraints)
+  Solute vdw bounding box:              38.264 48.273 50.522
+  Total bounding box for atom centers:  62.264 72.273 74.522
+  Solvent unit box:                     18.774 18.774 18.774
+  Total vdw box size:                   65.419 75.345 77.685 angstroms.
+  Volume: 382905.798 A^3 
+  Total mass 185536.674 amu,  Density 0.805 g/cc
+  Added 9369 residues.
+Checking 'complex'....
+Warning: Close contact of 1.304514 angstroms between .R<ARG 94>.A<HH22 22> and .R<WAT 191>.A<H1 2>
+Warning: Close contact of 1.343617 angstroms between .R<ARG 90>.A<H 2> and .R<WAT 207>.A<H2 3>
+Warning: Close contact of 0.998302 angstroms between .R<ASN 83>.A<HD22 12> and .R<WAT 136>.A<H1 2>
+Warning: Close contact of 1.238576 angstroms between .R<GLN 67>.A<HE22 15> and .R<THR 65>.A<HG1 12>
+Warning: Close contact of 1.205150 angstroms between .R<LYS 62>.A<HZ3 20> and .R<WAT 164>.A<H1 2>
+Warning: Close contact of 1.275187 angstroms between .R<PHE 47>.A<H 2> and .R<WAT 178>.A<H1 2>
+Warning: Close contact of 1.120089 angstroms between .R<ASP 37>.A<H 2> and .R<WAT 176>.A<H2 3>
+Warning: Close contact of 1.186238 angstroms between .R<ARG 33>.A<HH22 22> and .R<WAT 153>.A<H2 3>
+Warning: Close contact of 1.493152 angstroms between .R<ARG 24>.A<HH22 22> and .R<WAT 147>.A<H1 2>
+Warning: Close contact of 1.370498 angstroms between .R<TYR 23>.A<HH 15> and .R<WAT 134>.A<H2 3>
+Warning: Close contact of 1.478869 angstroms between .R<PHE 6>.A<H 2> and .R<WAT 148>.A<H1 2>
+Warning: Close contact of 0.847242 angstroms between .R<LYS 3>.A<HE2 15> and .R<WAT 174>.A<H2 3>
+Warning: Close contact of 1.133814 angstroms between .R<UNK 1>.A<C11 20> and .R<WAT 157>.A<O 1>
+Warning: Close contact of 0.681073 angstroms between .R<UNK 1>.A<C10 21> and .R<WAT 157>.A<O 1>
+Warning: Close contact of 1.167417 angstroms between .R<UNK 1>.A<C10 21> and .R<WAT 157>.A<H1 2>
+Warning: Close contact of 1.125080 angstroms between .R<UNK 1>.A<C10 21> and .R<WAT 157>.A<H2 3>
+Warning: Close contact of 1.236643 angstroms between .R<UNK 1>.A<C12 24> and .R<WAT 215>.A<O 1>
+Warning: Close contact of 0.760905 angstroms between .R<UNK 1>.A<C12 24> and .R<WAT 215>.A<H1 2>
+Warning: Close contact of 1.491128 angstroms between .R<UNK 1>.A<N1 25> and .R<WAT 215>.A<O 1>
+Warning: Close contact of 1.302068 angstroms between .R<UNK 1>.A<O1 27> and .R<WAT 215>.A<O 1>
+Warning: Close contact of 0.631321 angstroms between .R<UNK 1>.A<O1 27> and .R<WAT 215>.A<H1 2>
+Warning: Close contact of 1.326829 angstroms between .R<UNK 1>.A<HC5 43> and .R<WAT 243>.A<O 1>
+Warning: Close contact of 0.841845 angstroms between .R<UNK 1>.A<HC5 43> and .R<WAT 243>.A<H1 2>
+Warning: Close contact of 1.170293 angstroms between .R<UNK 1>.A<HC10 48> and .R<WAT 157>.A<O 1>
+Warning: Close contact of 0.506320 angstroms between .R<UNK 1>.A<HC10 48> and .R<WAT 157>.A<H2 3>
+Warning: Close contact of 1.384810 angstroms between .R<WAT 191>.A<H2 3> and .R<WAT 193>.A<H1 2>
+Warning: Close contact of 1.448619 angstroms between .R<WAT 240>.A<H2 3> and .R<WAT 245>.A<H1 2>
+Checking parameters for unit 'complex'.
+Checking for bond parameters.
+Checking for angle parameters.
+check:  Warnings: 27
+Unit is OK.
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 407 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	CGLY	1
+	NARG	1
+	UNK	1
+	WAT	9496
+  )
+ (no restraints)
+Writing pdb file: 100_1_5j0d_sol.pdb
+   printing CRYST1 record to PDB file with box info
+ Converting N-terminal residue name to PDB format: NARG -> ARG
+ Converting C-terminal residue name to PDB format: CGLY -> GLY
+	Quit

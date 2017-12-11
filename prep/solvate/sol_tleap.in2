@@ -1,0 +1,13 @@
+source leaprc.protein.ff14SB
+source leaprc.water.tip3p
+source leaprc.gaff2
+loadoff ../100_1.lib
+prot = loadpdb 100_1_5j0d_complex.pdb
+xwat = loadpdb 5j0d_xwat.pdb
+complex = combine {prot xwat}
+saveamberparm prot 5j0d_noWAT.prmtop 5j0d_noWAT.inpcrd
+solvatebox complex TIP3PBOX 12.0
+check complex
+saveamberparm complex 100_1_5j0d_sol.prmtop 100_1_5j0d_sol.inpcrd
+savepdb complex 100_1_5j0d_sol.pdb
+quit

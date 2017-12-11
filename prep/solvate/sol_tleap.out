@@ -1,0 +1,753 @@
+-I: Adding /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/prep to search path.
+-I: Adding /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/lib to search path.
+-I: Adding /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/parm to search path.
+-I: Adding /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/cmd to search path.
+-f: Source sol_tleap.in.
+
+Welcome to LEaP!
+(no leaprc in search path)
+Sourcing: ./sol_tleap.in
+----- Source: /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/lib/amino12.lib
+Loading library: /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/lib/aminoct12.lib
+Loading library: /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/lib/aminont12.lib
+----- Source: /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/lib/atomic_ions.lib
+Loading library: /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/lib/solvents.lib
+Loading parameters: /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+----- Source: /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/cmd/leaprc.gaff2
+----- Source of /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /share/apps/amber/16.06/openmpi/intel/amber16/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.1, April 2016)
+Loading PDB file: ./100_1_5j0d_complex.pdb
+Unknown residue: UNK   number: 0   type: Terminal/last
+..relaxing end constraints to try for a dbase match
+  -no luck
+Creating new UNIT for residue: UNK sequence: 1
+Created a new atom named: O3 within residue: .R<UNK 1>
+Created a new atom named: C26 within residue: .R<UNK 1>
+Created a new atom named: C21 within residue: .R<UNK 1>
+Created a new atom named: C20 within residue: .R<UNK 1>
+Created a new atom named: C19 within residue: .R<UNK 1>
+Created a new atom named: C24 within residue: .R<UNK 1>
+Created a new atom named: C23 within residue: .R<UNK 1>
+Created a new atom named: C22 within residue: .R<UNK 1>
+Created a new atom named: C9 within residue: .R<UNK 1>
+Created a new atom named: C8 within residue: .R<UNK 1>
+Created a new atom named: C6 within residue: .R<UNK 1>
+Created a new atom named: C7 within residue: .R<UNK 1>
+Created a new atom named: C5 within residue: .R<UNK 1>
+Created a new atom named: N within residue: .R<UNK 1>
+Created a new atom named: C2 within residue: .R<UNK 1>
+Created a new atom named: C3 within residue: .R<UNK 1>
+Created a new atom named: O4 within residue: .R<UNK 1>
+Created a new atom named: C4 within residue: .R<UNK 1>
+Created a new atom named: O within residue: .R<UNK 1>
+Created a new atom named: C11 within residue: .R<UNK 1>
+Created a new atom named: C10 within residue: .R<UNK 1>
+Created a new atom named: C1 within residue: .R<UNK 1>
+Created a new atom named: C within residue: .R<UNK 1>
+Created a new atom named: C12 within residue: .R<UNK 1>
+Created a new atom named: N1 within residue: .R<UNK 1>
+Created a new atom named: HN1 within residue: .R<UNK 1>
+Created a new atom named: O1 within residue: .R<UNK 1>
+Created a new atom named: C13 within residue: .R<UNK 1>
+Created a new atom named: C18 within residue: .R<UNK 1>
+Created a new atom named: N2 within residue: .R<UNK 1>
+Created a new atom named: C16 within residue: .R<UNK 1>
+Created a new atom named: H1 within residue: .R<UNK 1>
+Created a new atom named: H22 within residue: .R<UNK 1>
+Created a new atom named: C15 within residue: .R<UNK 1>
+Created a new atom named: C14 within residue: .R<UNK 1>
+Created a new atom named: O2 within residue: .R<UNK 1>
+Created a new atom named: C25 within residue: .R<UNK 1>
+Created a new atom named: HC within residue: .R<UNK 1>
+Created a new atom named: HC1 within residue: .R<UNK 1>
+Created a new atom named: HC2 within residue: .R<UNK 1>
+Created a new atom named: HC3 within residue: .R<UNK 1>
+Created a new atom named: HC4 within residue: .R<UNK 1>
+Created a new atom named: HC5 within residue: .R<UNK 1>
+Created a new atom named: HC6 within residue: .R<UNK 1>
+Created a new atom named: HC7 within residue: .R<UNK 1>
+Created a new atom named: HC8 within residue: .R<UNK 1>
+Created a new atom named: HC9 within residue: .R<UNK 1>
+Created a new atom named: HC10 within residue: .R<UNK 1>
+Created a new atom named: HC11 within residue: .R<UNK 1>
+Created a new atom named: HC12 within residue: .R<UNK 1>
+Created a new atom named: HC13 within residue: .R<UNK 1>
+Created a new atom named: HC14 within residue: .R<UNK 1>
+Created a new atom named: HC15 within residue: .R<UNK 1>
+Created a new atom named: HC16 within residue: .R<UNK 1>
+Created a new atom named: HC17 within residue: .R<UNK 1>
+Created a new atom named: HC18 within residue: .R<UNK 1>
+Created a new atom named: HC19 within residue: .R<UNK 1>
+Created a new atom named: HC20 within residue: .R<UNK 1>
+Created a new atom named: HC21 within residue: .R<UNK 1>
+Created a new atom named: HC22 within residue: .R<UNK 1>
+Created a new atom named: HC23 within residue: .R<UNK 1>
+Created a new atom named: HC24 within residue: .R<UNK 1>
+Created a new atom named: HC25 within residue: .R<UNK 1>
+Created a new atom named: HC26 within residue: .R<UNK 1>
+Created a new atom named: HC27 within residue: .R<UNK 1>
+Created a new atom named: HC28 within residue: .R<UNK 1>
+Created a new atom named: HC29 within residue: .R<UNK 1>
+Created a new atom named: HC30 within residue: .R<UNK 1>
+  total atoms in file: 2037
+  The file contained 68 atoms not in residue templates
+Loading parameters: ../100_1.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+remark goes here
+Loading parameters: ../100_1.lib
+Reading title:
+!!index array str
+ERROR: "UNK": mass not read - omitting
+ERROR: !entry.UNK.unit.atoms: mass not read - omitting
+ERROR: "O3": mass not read - omitting
+ERROR: "C26": mass not read - omitting
+ERROR: "C21": mass not read - omitting
+ERROR: "C20": mass not read - omitting
+ERROR: "C19": mass not read - omitting
+ERROR: "C24": mass not read - omitting
+ERROR: "C23": mass not read - omitting
+ERROR: "C22": mass not read - omitting
+ERROR: "C9": mass not read - omitting
+ERROR: "C8": mass not read - omitting
+ERROR: "C6": mass not read - omitting
+ERROR: "C7": mass not read - omitting
+ERROR: "C5": mass not read - omitting
+ERROR: "N": mass not read - omitting
+ERROR: "C2": mass not read - omitting
+ERROR: "C3": mass not read - omitting
+ERROR: "O4": mass not read - omitting
+ERROR: "C4": mass not read - omitting
+ERROR: "O": mass not read - omitting
+ERROR: "C11": mass not read - omitting
+ERROR: "C10": mass not read - omitting
+ERROR: "C1": mass not read - omitting
+ERROR: "C": mass not read - omitting
+ERROR: "C12": mass not read - omitting
+ERROR: "N1": mass not read - omitting
+ERROR: "HN1": mass not read - omitting
+ERROR: "O1": mass not read - omitting
+ERROR: "C13": mass not read - omitting
+ERROR: "C18": mass not read - omitting
+ERROR: "N2": mass not read - omitting
+ERROR: "C16": mass not read - omitting
+ERROR: "H1": mass not read - omitting
+ERROR: "H22": mass not read - omitting
+ERROR: "C15": mass not read - omitting
+ERROR: "C14": mass not read - omitting
+ERROR: "O2": mass not read - omitting
+ERROR: "C25": mass not read - omitting
+ERROR: "HC": mass not read - omitting
+ERROR: "HC1": mass not read - omitting
+ERROR: "HC2": mass not read - omitting
+ERROR: "HC3": mass not read - omitting
+ERROR: "HC4": mass not read - omitting
+ERROR: "HC5": mass not read - omitting
+ERROR: "HC6": mass not read - omitting
+ERROR: "HC7": mass not read - omitting
+ERROR: "HC8": mass not read - omitting
+ERROR: "HC9": mass not read - omitting
+ERROR: "HC10": mass not read - omitting
+ERROR: "HC11": mass not read - omitting
+ERROR: "HC12": mass not read - omitting
+ERROR: "HC13": mass not read - omitting
+ERROR: "HC14": mass not read - omitting
+ERROR: "HC15": mass not read - omitting
+ERROR: "HC16": mass not read - omitting
+ERROR: "HC17": mass not read - omitting
+ERROR: "HC18": mass not read - omitting
+ERROR: "HC19": mass not read - omitting
+ERROR: "HC20": mass not read - omitting
+ERROR: "HC21": mass not read - omitting
+ERROR: "HC22": mass not read - omitting
+ERROR: "HC23": mass not read - omitting
+ERROR: "HC24": mass not read - omitting
+ERROR: "HC25": mass not read - omitting
+ERROR: "HC26": mass not read - omitting
+ERROR: "HC27": mass not read - omitting
+ERROR: "HC28": mass not read - omitting
+ERROR: "HC29": mass not read - omitting
+ERROR: "HC30": mass not read - omitting
+ERROR: !entry.UNK.unit.atomspertinfo: mass not read - omitting
+ERROR: "O3": mass not read - omitting
+ERROR: "C26": mass not read - omitting
+ERROR: "C21": mass not read - omitting
+ERROR: "C20": mass not read - omitting
+ERROR: "C19": mass not read - omitting
+ERROR: "C24": mass not read - omitting
+ERROR: "C23": mass not read - omitting
+ERROR: "C22": mass not read - omitting
+ERROR: "C9": mass not read - omitting
+ERROR: "C8": mass not read - omitting
+ERROR: "C6": mass not read - omitting
+ERROR: "C7": mass not read - omitting
+ERROR: "C5": mass not read - omitting
+ERROR: "N": mass not read - omitting
+ERROR: "C2": mass not read - omitting
+ERROR: "C3": mass not read - omitting
+ERROR: "O4": mass not read - omitting
+ERROR: "C4": mass not read - omitting
+ERROR: "O": mass not read - omitting
+ERROR: "C11": mass not read - omitting
+ERROR: "C10": mass not read - omitting
+ERROR: "C1": mass not read - omitting
+ERROR: "C": mass not read - omitting
+ERROR: "C12": mass not read - omitting
+ERROR: "N1": mass not read - omitting
+ERROR: "HN1": mass not read - omitting
+ERROR: "O1": mass not read - omitting
+ERROR: "C13": mass not read - omitting
+ERROR: "C18": mass not read - omitting
+ERROR: "N2": mass not read - omitting
+ERROR: "C16": mass not read - omitting
+ERROR: "H1": mass not read - omitting
+ERROR: "H22": mass not read - omitting
+ERROR: "C15": mass not read - omitting
+ERROR: "C14": mass not read - omitting
+ERROR: "O2": mass not read - omitting
+ERROR: "C25": mass not read - omitting
+ERROR: "HC": mass not read - omitting
+ERROR: "HC1": mass not read - omitting
+ERROR: "HC2": mass not read - omitting
+ERROR: "HC3": mass not read - omitting
+ERROR: "HC4": mass not read - omitting
+ERROR: "HC5": mass not read - omitting
+ERROR: "HC6": mass not read - omitting
+ERROR: "HC7": mass not read - omitting
+ERROR: "HC8": mass not read - omitting
+ERROR: "HC9": mass not read - omitting
+ERROR: "HC10": mass not read - omitting
+ERROR: "HC11": mass not read - omitting
+ERROR: "HC12": mass not read - omitting
+ERROR: "HC13": mass not read - omitting
+ERROR: "HC14": mass not read - omitting
+ERROR: "HC15": mass not read - omitting
+ERROR: "HC16": mass not read - omitting
+ERROR: "HC17": mass not read - omitting
+ERROR: "HC18": mass not read - omitting
+ERROR: "HC19": mass not read - omitting
+ERROR: "HC20": mass not read - omitting
+ERROR: "HC21": mass not read - omitting
+ERROR: "HC22": mass not read - omitting
+ERROR: "HC23": mass not read - omitting
+ERROR: "HC24": mass not read - omitting
+ERROR: "HC25": mass not read - omitting
+ERROR: "HC26": mass not read - omitting
+ERROR: "HC27": mass not read - omitting
+ERROR: "HC28": mass not read - omitting
+ERROR: "HC29": mass not read - omitting
+ERROR: "HC30": mass not read - omitting
+ERROR: !entry.UNK.unit.boundbox: mass not read - omitting
+ERROR: -1.000000: mass not read - omitting
+ERROR: 0.0: mass not read - omitting
+ERROR: 0.0: mass not read - omitting
+ERROR: 0.0: mass not read - omitting
+ERROR: 0.0: mass not read - omitting
+ERROR: !entry.UNK.unit.childsequence: mass not read - omitting
+ERROR: 2: mass not read - omitting
+ERROR: !entry.UNK.unit.connect: mass not read - omitting
+ERROR: 0: mass not read - omitting
+ERROR: 0: mass not read - omitting
+ERROR: !entry.UNK.unit.connectivity: mass not read - omitting
+ERROR: !entry.UNK.unit.hierarchy: mass not read - omitting
+ERROR: !entry.UNK.unit.name: mass not read - omitting
+ERROR: "UNK": mass not read - omitting
+ERROR: !entry.UNK.unit.positions: mass not read - omitting
+WARNING: 11.476000: polarization 22.290000
+WARNING: 11.458000: polarization 20.875000
+WARNING: 11.115000: polarization 22.850000
+WARNING: 10.941000: polarization 22.087000
+WARNING: 10.582000: polarization 22.699000
+WARNING: 10.408000: polarization 24.103000
+WARNING: 10.573000: polarization 24.868000
+WARNING: 10.925000: polarization 24.236000
+WARNING: 10.407000: polarization 21.883000
+WARNING: 11.114000: polarization 22.204000
+WARNING: 10.948000: polarization 21.450000
+WARNING: 11.698000: polarization 21.835000
+WARNING: 10.053000: polarization 20.365000
+WARNING: 12.590000: polarization 20.758000
+WARNING: 13.912000: polarization 20.581000
+WARNING: 11.898000: polarization 19.722000
+WARNING: 14.542000: polarization 19.599000
+WARNING: 10.942000: polarization 18.840000
+WARNING: 9.857000: polarization 19.633000
+WARNING: 9.319000: polarization 20.046000
+WARNING: 9.511000: polarization 20.790000
+WARNING: 14.570000: polarization 21.689000
+WARNING: 16.114000: polarization 21.614000
+WARNING: 8.316000: polarization 18.943000
+WARNING: 7.150000: polarization 19.252000
+WARNING: 7.145000: polarization 20.152000
+WARNING: 8.497000: polarization 17.844000
+WARNING: 6.146000: polarization 18.231000
+WARNING: 4.734000: polarization 18.842000
+WARNING: 3.661000: polarization 17.823000
+WARNING: 4.096000: polarization 17.104000
+WARNING: 2.741000: polarization 18.283000
+WARNING: 3.529000: polarization 17.125000
+WARNING: 5.490000: polarization 16.453000
+WARNING: 6.557000: polarization 17.480000
+WARNING: 10.378000: polarization 26.228000
+WARNING: 10.879000: polarization 27.026000
+WARNING: 11.084000: polarization 21.017000
+WARNING: 10.142000: polarization 24.597000
+WARNING: 11.049000: polarization 24.821000
+WARNING: 11.793000: polarization 23.044000
+WARNING: 12.296000: polarization 22.724000
+WARNING: 10.977000: polarization 22.063000
+WARNING: 11.319000: polarization 20.217000
+WARNING: 12.646000: polarization 19.083000
+WARNING: 11.498000: polarization 18.389000
+WARNING: 10.533000: polarization 18.052000
+WARNING: 8.965000: polarization 20.521000
+WARNING: 14.210000: polarization 21.606000
+WARNING: 14.270000: polarization 22.657000
+WARNING: 6.116000: polarization 17.514000
+WARNING: 4.784000: polarization 19.623000
+WARNING: 4.435000: polarization 19.292000
+WARNING: 3.367000: polarization 16.326000
+WARNING: 4.116000: polarization 17.821000
+WARNING: 5.439000: polarization 15.653000
+WARNING: 5.780000: polarization 16.032000
+WARNING: 6.699000: polarization 18.207000
+WARNING: 7.498000: polarization 16.959000
+WARNING: 16.516000: polarization 22.489000
+WARNING: 16.428000: polarization 20.712000
+WARNING: 16.487000: polarization 21.587000
+WARNING: 11.680000: polarization 20.686000
+WARNING: 12.208000: polarization 20.388000
+WARNING: 10.472000: polarization 20.477000
+WARNING: 10.936000: polarization 28.069000
+WARNING: 10.208000: polarization 26.938000
+WARNING: 11.872000: polarization 26.675000
+ERROR: !entry.UNK.unit.residueconnect: mass not read - omitting
+atom type 0 - unknown hybridization 0
+ERROR: !entry.UNK.unit.residues: mass not read - omitting
+WARNING: "UNK": polarization 69.000000
+ERROR: !entry.UNK.unit.residuesPdbSequenceNumber: mass not read - omitting
+ERROR: 0: mass not read - omitting
+ERROR: !entry.UNK.unit.solventcap: mass not read - omitting
+ERROR: -1.000000: mass not read - omitting
+ERROR: 0.0: mass not read - omitting
+ERROR: 0.0: mass not read - omitting
+ERROR: 0.0: mass not read - omitting
+ERROR: 0.0: mass not read - omitting
+ERROR: !entry.UNK.unit.velocities: mass not read - omitting
+Loading PDB file: ./5j0d_xwat.pdb
+  total atoms in file: 127
+  Leap added 254 missing atoms according to residue templates:
+       254 H / lone pairs
+Checking Unit.
+WARNING: The unperturbed charge of the unit: -1.000000 is not zero.
+FATAL:  Atom .R<UNK 1>.A<O3 1> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C26 2> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C21 3> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C20 4> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C19 5> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C24 6> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C23 7> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C22 8> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C9 9> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C8 10> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C6 11> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C7 12> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C5 13> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<N 14> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C2 15> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C3 16> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<O4 17> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C4 18> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<O 19> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C11 20> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C10 21> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C1 22> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C 23> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C12 24> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<N1 25> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HN1 26> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<O1 27> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C13 28> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C18 29> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<N2 30> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C16 31> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<H1 32> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<H22 33> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C15 34> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C14 35> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<O2 36> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C25 37> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC 38> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC1 39> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC2 40> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC3 41> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC4 42> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC5 43> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC6 44> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC7 45> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC8 46> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC9 47> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC10 48> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC11 49> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC12 50> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC13 51> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC14 52> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC15 53> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC16 54> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC17 55> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC18 56> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC19 57> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC20 58> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC21 59> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC22 60> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC23 61> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC24 62> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC25 63> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC26 64> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC27 65> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC28 66> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC29 67> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC30 68> does not have a type.
+Failed to generate parameters
+Parameter file was not saved.
+Total unperturbed charge:  -1.000000
+Total perturbed charge:    -1.000000
+addIons: 1st Ion & target are the same charge:
+     can't neutralize.
+ (using default radius 1.500000 for C25)
+ (using default radius 1.500000 for O2)
+ (using default radius 1.500000 for C14)
+ (using default radius 1.500000 for C15)
+ (using default radius 1.500000 for C16)
+ (using default radius 1.500000 for N2)
+ (using default radius 1.500000 for C18)
+ (using default radius 1.500000 for C13)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for N1)
+ (using default radius 1.500000 for C12)
+ (using default radius 1.500000 for C)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C10)
+ (using default radius 1.500000 for C11)
+ (using default radius 1.500000 for O)
+ (using default radius 1.500000 for C4)
+ (using default radius 1.500000 for O4)
+ (using default radius 1.500000 for C3)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for N)
+ (using default radius 1.500000 for C5)
+ (using default radius 1.500000 for C7)
+ (using default radius 1.500000 for C6)
+ (using default radius 1.500000 for C8)
+ (using default radius 1.500000 for C9)
+ (using default radius 1.500000 for C22)
+ (using default radius 1.500000 for C23)
+ (using default radius 1.500000 for C24)
+ (using default radius 1.500000 for C19)
+ (using default radius 1.500000 for C20)
+ (using default radius 1.500000 for C21)
+ (using default radius 1.500000 for C26)
+ (using default radius 1.500000 for O3)
+  Solute vdw bounding box:              38.264 48.273 50.522
+  Total bounding box for atom centers:  62.264 72.273 74.522
+  Solvent unit box:                     18.774 18.774 18.774
+ (using default radius 1.500000 for C25)
+ (using default radius 1.500000 for O2)
+ (using default radius 1.500000 for C14)
+ (using default radius 1.500000 for C15)
+ (using default radius 1.500000 for C16)
+ (using default radius 1.500000 for N2)
+ (using default radius 1.500000 for C18)
+ (using default radius 1.500000 for C13)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for N1)
+ (using default radius 1.500000 for C12)
+ (using default radius 1.500000 for C)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C10)
+ (using default radius 1.500000 for C11)
+ (using default radius 1.500000 for O)
+ (using default radius 1.500000 for C4)
+ (using default radius 1.500000 for O4)
+ (using default radius 1.500000 for C3)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for N)
+ (using default radius 1.500000 for C5)
+ (using default radius 1.500000 for C7)
+ (using default radius 1.500000 for C6)
+ (using default radius 1.500000 for C8)
+ (using default radius 1.500000 for C9)
+ (using default radius 1.500000 for C22)
+ (using default radius 1.500000 for C23)
+ (using default radius 1.500000 for C24)
+ (using default radius 1.500000 for C19)
+ (using default radius 1.500000 for C20)
+ (using default radius 1.500000 for C21)
+ (using default radius 1.500000 for C26)
+ (using default radius 1.500000 for O3)
+  Total vdw box size:                   65.419 75.345 77.685 angstroms.
+  Volume: 382905.798 A^3 
+  Mass > 185068.112 amu,  Density > 0.803 g/cc
+      (type - hence mass - of one or more atoms could not be found)
+  Added 9369 residues.
+Checking 'complex'....
+WARNING: The unperturbed charge of the unit: -1.000000 is not zero.
+FATAL:  Atom .R<UNK 1>.A<HC30 68> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC29 67> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC28 66> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC27 65> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC26 64> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC25 63> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC24 62> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC23 61> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC22 60> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC21 59> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC20 58> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC19 57> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC18 56> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC17 55> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC16 54> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC15 53> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC14 52> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC13 51> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC12 50> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC11 49> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC10 48> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC9 47> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC8 46> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC7 45> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC6 44> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC5 43> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC4 42> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC3 41> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC2 40> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC1 39> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC 38> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C25 37> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<O2 36> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C14 35> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C15 34> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<H22 33> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<H1 32> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C16 31> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<N2 30> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C18 29> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C13 28> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<O1 27> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HN1 26> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<N1 25> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C12 24> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C 23> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C1 22> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C10 21> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C11 20> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<O 19> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C4 18> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<O4 17> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C3 16> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C2 15> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<N 14> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C5 13> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C7 12> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C6 11> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C8 10> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C9 9> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C22 8> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C23 7> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C24 6> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C19 5> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C20 4> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C21 3> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C26 2> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<O3 1> does not have a type.
+Warning: Close contact of 1.304514 angstroms between .R<ARG 94>.A<HH22 22> and .R<WAT 191>.A<H1 2>
+Warning: Close contact of 1.343617 angstroms between .R<ARG 90>.A<H 2> and .R<WAT 207>.A<H2 3>
+Warning: Close contact of 0.998302 angstroms between .R<ASN 83>.A<HD22 12> and .R<WAT 136>.A<H1 2>
+Warning: Close contact of 1.238576 angstroms between .R<GLN 67>.A<HE22 15> and .R<THR 65>.A<HG1 12>
+Warning: Close contact of 1.205150 angstroms between .R<LYS 62>.A<HZ3 20> and .R<WAT 164>.A<H1 2>
+Warning: Close contact of 1.275187 angstroms between .R<PHE 47>.A<H 2> and .R<WAT 178>.A<H1 2>
+Warning: Close contact of 1.120089 angstroms between .R<ASP 37>.A<H 2> and .R<WAT 176>.A<H2 3>
+Warning: Close contact of 1.186238 angstroms between .R<ARG 33>.A<HH22 22> and .R<WAT 153>.A<H2 3>
+Warning: Close contact of 1.493152 angstroms between .R<ARG 24>.A<HH22 22> and .R<WAT 147>.A<H1 2>
+Warning: Close contact of 1.370498 angstroms between .R<TYR 23>.A<HH 15> and .R<WAT 134>.A<H2 3>
+Warning: Close contact of 1.478869 angstroms between .R<PHE 6>.A<H 2> and .R<WAT 148>.A<H1 2>
+Warning: Close contact of 0.847242 angstroms between .R<LYS 3>.A<HE2 15> and .R<WAT 174>.A<H2 3>
+Warning: Close contact of 1.089794 angstroms between .R<UNK 1>.A<HC30 68> and .R<UNK 1>.A<C25 37>
+Warning: Close contact of 1.090417 angstroms between .R<UNK 1>.A<HC29 67> and .R<UNK 1>.A<C25 37>
+Warning: Close contact of 1.089871 angstroms between .R<UNK 1>.A<HC28 66> and .R<UNK 1>.A<C25 37>
+Warning: Close contact of 1.090046 angstroms between .R<UNK 1>.A<HC27 65> and .R<UNK 1>.A<C26 2>
+Warning: Close contact of 1.089861 angstroms between .R<UNK 1>.A<HC26 64> and .R<UNK 1>.A<C26 2>
+Warning: Close contact of 1.089727 angstroms between .R<UNK 1>.A<HC25 63> and .R<UNK 1>.A<C26 2>
+Warning: Close contact of 1.090153 angstroms between .R<UNK 1>.A<HC24 62> and .R<UNK 1>.A<C 23>
+Warning: Close contact of 1.089874 angstroms between .R<UNK 1>.A<HC23 61> and .R<UNK 1>.A<C 23>
+Warning: Close contact of 1.089646 angstroms between .R<UNK 1>.A<HC22 60> and .R<UNK 1>.A<C 23>
+Warning: Close contact of 1.090232 angstroms between .R<UNK 1>.A<HC21 59> and .R<UNK 1>.A<C14 35>
+Warning: Close contact of 1.089538 angstroms between .R<UNK 1>.A<HC20 58> and .R<UNK 1>.A<C14 35>
+Warning: Close contact of 1.090280 angstroms between .R<UNK 1>.A<HC19 57> and .R<UNK 1>.A<C15 34>
+Warning: Close contact of 1.089608 angstroms between .R<UNK 1>.A<HC18 56> and .R<UNK 1>.A<C15 34>
+Warning: Close contact of 1.089444 angstroms between .R<UNK 1>.A<HC17 55> and .R<UNK 1>.A<C16 31>
+Warning: Close contact of 1.090279 angstroms between .R<UNK 1>.A<HC16 54> and .R<UNK 1>.A<C16 31>
+Warning: Close contact of 1.090280 angstroms between .R<UNK 1>.A<HC15 53> and .R<UNK 1>.A<C18 29>
+Warning: Close contact of 1.090203 angstroms between .R<UNK 1>.A<HC14 52> and .R<UNK 1>.A<C18 29>
+Warning: Close contact of 1.089674 angstroms between .R<UNK 1>.A<HC13 51> and .R<UNK 1>.A<C13 28>
+Warning: Close contact of 1.089506 angstroms between .R<UNK 1>.A<HC12 50> and .R<UNK 1>.A<C1 22>
+Warning: Close contact of 1.089548 angstroms between .R<UNK 1>.A<HC11 49> and .R<UNK 1>.A<C1 22>
+Warning: Close contact of 1.079880 angstroms between .R<UNK 1>.A<HC10 48> and .R<UNK 1>.A<C10 21>
+Warning: Close contact of 1.170293 angstroms between .R<UNK 1>.A<HC10 48> and .R<WAT 157>.A<O 1>
+Warning: Close contact of 0.506320 angstroms between .R<UNK 1>.A<HC10 48> and .R<WAT 157>.A<H2 3>
+Warning: Close contact of 1.090373 angstroms between .R<UNK 1>.A<HC9 47> and .R<UNK 1>.A<C4 18>
+Warning: Close contact of 1.090056 angstroms between .R<UNK 1>.A<HC8 46> and .R<UNK 1>.A<C4 18>
+Warning: Close contact of 1.090287 angstroms between .R<UNK 1>.A<HC7 45> and .R<UNK 1>.A<C3 16>
+Warning: Close contact of 1.090260 angstroms between .R<UNK 1>.A<HC6 44> and .R<UNK 1>.A<C3 16>
+Warning: Close contact of 1.089977 angstroms between .R<UNK 1>.A<HC5 43> and .R<UNK 1>.A<C7 12>
+Warning: Close contact of 1.326829 angstroms between .R<UNK 1>.A<HC5 43> and .R<WAT 243>.A<O 1>
+Warning: Close contact of 0.841845 angstroms between .R<UNK 1>.A<HC5 43> and .R<WAT 243>.A<H1 2>
+Warning: Close contact of 1.090288 angstroms between .R<UNK 1>.A<HC4 42> and .R<UNK 1>.A<C7 12>
+Warning: Close contact of 1.080112 angstroms between .R<UNK 1>.A<HC3 41> and .R<UNK 1>.A<C8 10>
+Warning: Close contact of 1.079723 angstroms between .R<UNK 1>.A<HC2 40> and .R<UNK 1>.A<C22 8>
+Warning: Close contact of 1.080149 angstroms between .R<UNK 1>.A<HC1 39> and .R<UNK 1>.A<C24 6>
+Warning: Close contact of 1.080182 angstroms between .R<UNK 1>.A<HC 38> and .R<UNK 1>.A<C20 4>
+Warning: Close contact of 1.437776 angstroms between .R<UNK 1>.A<C25 37> and .R<UNK 1>.A<O2 36>
+Warning: Close contact of 1.377839 angstroms between .R<UNK 1>.A<O2 36> and .R<UNK 1>.A<C23 7>
+Warning: Close contact of 1.038112 angstroms between .R<UNK 1>.A<H22 33> and .R<UNK 1>.A<N2 30>
+Warning: Close contact of 1.037283 angstroms between .R<UNK 1>.A<H1 32> and .R<UNK 1>.A<N2 30>
+Warning: Close contact of 1.466610 angstroms between .R<UNK 1>.A<C13 28> and .R<UNK 1>.A<N1 25>
+Warning: Close contact of 1.213625 angstroms between .R<UNK 1>.A<O1 27> and .R<UNK 1>.A<C12 24>
+Warning: Close contact of 1.302068 angstroms between .R<UNK 1>.A<O1 27> and .R<WAT 215>.A<O 1>
+Warning: Close contact of 0.631321 angstroms between .R<UNK 1>.A<O1 27> and .R<WAT 215>.A<H1 2>
+Warning: Close contact of 1.008038 angstroms between .R<UNK 1>.A<HN1 26> and .R<UNK 1>.A<N1 25>
+Warning: Close contact of 1.377894 angstroms between .R<UNK 1>.A<N1 25> and .R<UNK 1>.A<C12 24>
+Warning: Close contact of 1.491128 angstroms between .R<UNK 1>.A<N1 25> and .R<WAT 215>.A<O 1>
+Warning: Close contact of 1.491256 angstroms between .R<UNK 1>.A<C12 24> and .R<UNK 1>.A<C11 20>
+Warning: Close contact of 1.236643 angstroms between .R<UNK 1>.A<C12 24> and .R<WAT 215>.A<O 1>
+Warning: Close contact of 0.760905 angstroms between .R<UNK 1>.A<C12 24> and .R<WAT 215>.A<H1 2>
+Warning: Close contact of 1.408957 angstroms between .R<UNK 1>.A<C10 21> and .R<UNK 1>.A<C11 20>
+Warning: Close contact of 1.413750 angstroms between .R<UNK 1>.A<C10 21> and .R<UNK 1>.A<C9 9>
+Warning: Close contact of 0.681073 angstroms between .R<UNK 1>.A<C10 21> and .R<WAT 157>.A<O 1>
+Warning: Close contact of 1.167417 angstroms between .R<UNK 1>.A<C10 21> and .R<WAT 157>.A<H1 2>
+Warning: Close contact of 1.125080 angstroms between .R<UNK 1>.A<C10 21> and .R<WAT 157>.A<H2 3>
+Warning: Close contact of 1.403541 angstroms between .R<UNK 1>.A<C11 20> and .R<UNK 1>.A<C5 13>
+Warning: Close contact of 1.133814 angstroms between .R<UNK 1>.A<C11 20> and .R<WAT 157>.A<O 1>
+Warning: Close contact of 1.447590 angstroms between .R<UNK 1>.A<O 19> and .R<UNK 1>.A<C4 18>
+Warning: Close contact of 1.375552 angstroms between .R<UNK 1>.A<O 19> and .R<UNK 1>.A<C5 13>
+Warning: Close contact of 1.216655 angstroms between .R<UNK 1>.A<O4 17> and .R<UNK 1>.A<C2 15>
+Warning: Close contact of 1.481135 angstroms between .R<UNK 1>.A<C3 16> and .R<UNK 1>.A<N 14>
+Warning: Close contact of 1.394511 angstroms between .R<UNK 1>.A<C2 15> and .R<UNK 1>.A<N 14>
+Warning: Close contact of 1.473709 angstroms between .R<UNK 1>.A<N 14> and .R<UNK 1>.A<C7 12>
+Warning: Close contact of 1.406538 angstroms between .R<UNK 1>.A<C5 13> and .R<UNK 1>.A<C6 11>
+Warning: Close contact of 1.405951 angstroms between .R<UNK 1>.A<C6 11> and .R<UNK 1>.A<C8 10>
+Warning: Close contact of 1.415891 angstroms between .R<UNK 1>.A<C8 10> and .R<UNK 1>.A<C9 9>
+Warning: Close contact of 1.497174 angstroms between .R<UNK 1>.A<C9 9> and .R<UNK 1>.A<C19 5>
+Warning: Close contact of 1.404615 angstroms between .R<UNK 1>.A<C22 8> and .R<UNK 1>.A<C23 7>
+Warning: Close contact of 1.399426 angstroms between .R<UNK 1>.A<C22 8> and .R<UNK 1>.A<C21 3>
+Warning: Close contact of 1.400962 angstroms between .R<UNK 1>.A<C23 7> and .R<UNK 1>.A<C24 6>
+Warning: Close contact of 1.414754 angstroms between .R<UNK 1>.A<C24 6> and .R<UNK 1>.A<C19 5>
+Warning: Close contact of 1.416510 angstroms between .R<UNK 1>.A<C19 5> and .R<UNK 1>.A<C20 4>
+Warning: Close contact of 1.407603 angstroms between .R<UNK 1>.A<C20 4> and .R<UNK 1>.A<C21 3>
+Warning: Close contact of 1.377809 angstroms between .R<UNK 1>.A<C21 3> and .R<UNK 1>.A<O3 1>
+Warning: Close contact of 1.436509 angstroms between .R<UNK 1>.A<C26 2> and .R<UNK 1>.A<O3 1>
+Warning: Close contact of 1.384810 angstroms between .R<WAT 191>.A<H2 3> and .R<WAT 193>.A<H1 2>
+Warning: Close contact of 1.448619 angstroms between .R<WAT 240>.A<H2 3> and .R<WAT 245>.A<H1 2>
+Checking parameters for unit 'complex'.
+Checking for bond parameters.
+Checking for angle parameters.
+check:  Errors:  68   Warnings: 89
+Checking Unit.
+WARNING: The unperturbed charge of the unit: -1.000000 is not zero.
+FATAL:  Atom .R<UNK 1>.A<HC30 68> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC29 67> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC28 66> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC27 65> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC26 64> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC25 63> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC24 62> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC23 61> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC22 60> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC21 59> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC20 58> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC19 57> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC18 56> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC17 55> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC16 54> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC15 53> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC14 52> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC13 51> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC12 50> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC11 49> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC10 48> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC9 47> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC8 46> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC7 45> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC6 44> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC5 43> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC4 42> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC3 41> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC2 40> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC1 39> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HC 38> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C25 37> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<O2 36> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C14 35> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C15 34> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<H22 33> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<H1 32> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C16 31> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<N2 30> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C18 29> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C13 28> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<O1 27> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<HN1 26> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<N1 25> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C12 24> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C 23> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C1 22> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C10 21> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C11 20> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<O 19> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C4 18> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<O4 17> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C3 16> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C2 15> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<N 14> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C5 13> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C7 12> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C6 11> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C8 10> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C9 9> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C22 8> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C23 7> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C24 6> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C19 5> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C20 4> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C21 3> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<C26 2> does not have a type.
+FATAL:  Atom .R<UNK 1>.A<O3 1> does not have a type.
+Failed to generate parameters
+Parameter file was not saved.
+Writing pdb file: 100_1_5j0d_sol.pdb
+   printing CRYST1 record to PDB file with box info
+ Converting N-terminal residue name to PDB format: NARG -> ARG
+ Converting C-terminal residue name to PDB format: CGLY -> GLY
+	Quit

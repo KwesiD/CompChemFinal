@@ -1,0 +1,43 @@
+#AlphaSpace 1.0 
+#sample parameter input file
+
+min_r = 3.2
+max_r = 5.4
+#minimum and maximum alpha-sphere radius for filtering alpha-spheres
+
+clust_dist = 4.7
+#distance parameter for average linkage clustering of alpha-atoms 
+#into alpha-clusters
+
+min_num_alph = 1
+#filter alpha-clusters by a minimum # of alpha-atoms
+
+hit_dist = 1.6
+#ligand/alpha-atom "contact" distance
+
+core_cutoff = 100
+aux_cutoff = 30
+#pocket score cutoffs for pockets to qualify as "core" or "auxiliary" for use in detecting Pocket commuinities
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

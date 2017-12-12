@@ -1,0 +1,8 @@
+#rank	color	score	% occupied	space	% non-polar
+1		green		141		95%		194		73%
+2		yellow		138		49%		255		54%
+3		pink		102		54%		128		80%
+4		teal		67		100%		89		75%
+5		orange		62		10%		91		68%
+6		blue		56		86%		122		46%
+7		purple		19		60%		34		56%

@@ -1,0 +1,23 @@
+
+Initial FFT Block Distribution Based on Workload Estimate:
+
+  FFT blocks assigned to   16 tasks
+
+First FFT Block Distribution Based on Actual Workload:
+
+  FFT blocks assigned to   68 tasks
+
+Image Distribution at run step    1009:
+
+  Count of images assigned to each task:
+          489      211      221      230      237      610      204      206
+          234      246      483      281      291      323      370      543
+          297      283      282      293      294      549      388      383
+          303      323      503      336      308      300      357      642
+          326      323      322      327      488      345      416      434
+          344      330      527      492      602      610      753      840
+          385      350      347      393      661      349      335      318
+          338      516      339      374      350      325      314      492
+          283      275      284      285      594      295      271      265
+          260      507      213      207      220      252      651      221
+          203      215      178      161

@@ -1,7 +1,10 @@
-# 12/12/17 20:02:07
+# 12/12/17 20:08:15
 parm 100_1_5j0d_sol.prmtop
 trajin prod_4ns_100-1.mdcrd
-rms ToFirst :1-13&!@H= first out rmsd1.agr mass
-ls
+hbond All out All.hbvtime.dat solventdonor :WAT solventacceptor :WAT@O avgout All.UU.avg.dat solvout All.UV.avg.dat bridgeout All.bridge.avg.dat
+hbond Backbone :1-12@C,O,N,H avgout BB.avg.dat series uuseries bbhbond.gnu
+create nhbvtime.agr All[UU] Backbone[UU] All[UV] All[Bridge]
+rms BBrmsd :1-12@C,CA,N out BBrmsd.agr
 run
-ls
+lifetime Backbone[solutehb] out backbone.lifetime.dat
+runanalysis

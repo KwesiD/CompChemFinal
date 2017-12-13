@@ -1,0 +1,6 @@
+#Set     lifetime_00012 lifetime_00012[max] lifetime_00012[avg] lifetime_00012[frames] lifetime_00012[name]
+       1              2                   1              1.0000                      2    LYS_4@O-PHE_6@N-H
+       2            190                   5              1.5263                    290   LYS_7@O-GLU_10@N-H
+       3            149                   7              1.4899                    222   LYS_7@O-LEU_11@N-H
+       4              3                   2              1.3333                      4   PRO_8@O-LEU_11@N-H
+       5            242                   7              1.9091                    462   PRO_8@O-ARG_12@N-H

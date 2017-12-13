@@ -1,0 +1,5 @@
+send sandy the short_prod.ptraj as well as the solvated prmtop as well as the 4ns mdcrd files
+also do the rmsd, hydrogen bonding.
+
+
+Write out autodock vina notes, methods 1(modifying ligands)

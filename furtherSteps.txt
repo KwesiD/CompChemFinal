@@ -1,0 +1,7 @@
+1) Remove methyl from 102 while docked to 5J0D. Minimize and compare this result to the 
+minimized 100 that was docked using Vina.  This would be to validate our methods. 
+
+2) Look at the interaction between the water and the ligand directly.
+
+3) Look at the residue interactons (we have the files in All.UU file from cpptraj)
+	We should then take the distance data and label it onto our diagrams 

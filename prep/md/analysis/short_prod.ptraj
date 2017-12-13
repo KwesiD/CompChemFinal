@@ -1,0 +1,6 @@
+trajin ../prod1.mdcrd 1 2000 4 
+trajin ../prod2.mdcrd 1 2000 4 
+center :1-218 
+image familiar 
+rms first @N,CA,C 
+trajout prod_4ns.mdcrd 

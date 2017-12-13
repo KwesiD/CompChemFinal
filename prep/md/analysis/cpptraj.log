@@ -1,0 +1,7 @@
+# 12/12/17 20:02:07
+parm 100_1_5j0d_sol.prmtop
+trajin prod_4ns_100-1.mdcrd
+rms ToFirst :1-13&!@H= first out rmsd1.agr mass
+ls
+run
+ls

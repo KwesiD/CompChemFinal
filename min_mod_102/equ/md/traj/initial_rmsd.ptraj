@@ -1,0 +1,6 @@
+trajin ../heat.mdcrd
+trajin ../density.mdcrd 
+trajin ../equil.mdcrd 
+rms first out 5j0d_mod__equ_rms.dat @C,CA,N time 1 
+
+

@@ -1,0 +1,29 @@
+#!/bin/bash
+
+#SBATCH --job-name=Amber
+#SBATCH --nodes=3
+#SBATCH --tasks-per-node=28
+#SBATCH --time=24:00:00
+#SBATCH --mem=100GB
+#SBATCH --mail-type=END
+#SBATCH --mail-user=kfd233@nyu.edu
+
+#Comments start here, above are not comments and should be in your script
+# go to your working directory: /scratch/YOURnetID/hw4/equ.
+cd /scratch/kfd233/final_project/CompChemFinal/min_mod_102/equ/md
+
+# load module to run amber
+
+module purge
+module load amber/openmpi/intel/16.06
+
+
+mpiexec pmemd.MPI -O -i ../prod_npt.in -o prod1.out -p ../5j0d_mod_sol.prmtop -c ../equil.rst -r prod1.rst -x prod1.mdcrd
+
+mpiexec pmemd.MPI -O -i ../prod_npt.in -o prod2.out -p ../5j0d_mod_sol.prmtop -c prod1.rst -r prod2.rst -x prod2.mdcrd
+
+
+
+
+
+

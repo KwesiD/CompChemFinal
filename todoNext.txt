@@ -3,3 +3,6 @@ also do the rmsd, hydrogen bonding.
 
 
 Write out autodock vina notes, methods 1(modifying ligands)
+_____________________
+
+1) Step 1 in further notes. Modify the ligand
